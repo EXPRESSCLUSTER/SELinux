@@ -17,10 +17,27 @@
        - Method: keepalive
 1. Start the cluster and get the following errors in /var/log/messages.
    ```
-   platform-python[3292]: SELinux is preventing /usr/bin/kmod from module_load access on the system /opt/nec/clusterpro/drivers/khb/distribution/asianux/clpkhb-4.18.0-147.5.1.el8.x86_64.ko.#012#012*****  Plugin catchall (100. confidence) suggests   **************************#012#012If you believe that kmod should be allowed module_load access on the clpkhb-4.18.0-147.5.1.el8.x86_64.ko system by default.#012Then you should report this as a bug.#012You can generate a local policy module to allow this access.#012Do#012allow this access for now by executing:#012# ausearch -c 'insmod' --raw | audit2allow -M my-insmod#012# semodule -X 300 -i my-insmod.pp#012
+   platform-python[3292]: SELinux is preventing /usr/bin/kmod from module_load access on the system /opt/nec/clusterpro/drivers/khb/distribution/asianux/clpkhb-4.18.0-147.5.1.el8.x86_64.ko.
+   
+   *****  Plugin catchall (100. confidence) suggests   **************************
+   
+   If you believe that kmod should be allowed module_load access on the clpkhb-4.18.0-147.5.1.el8.x86_64.ko system by default.
+   Then you should report this as a bug.
+   You can generate a local policy module to allow this access.
+   Do allow this access for now by executing:
+   # ausearch -c 'insmod' --raw | audit2allow -M my-insmod
+   # semodule -X 300 -i my-insmod.pp#012
    ```
    ```
-   platform-python[3292]: SELinux is preventing /usr/bin/kmod from module_load access on the system /opt/nec/clusterpro/drivers/ka/distribution/asianux/clpka-4.18.0-147.5.1.el8.x86_64.ko.#012#012*****  Plugin catchall (100. confidence) suggests   **************************#012#012If you believe that kmod should be allowed module_load access on the clpka-4.18.0-147.5.1.el8.x86_64.ko system by default.#012Then you should report this as a bug.#012You can generate a local policy module to allow this access.#012Do#012allow this access for now by executing:#012# ausearch -c 'insmod' --raw | audit2allow -M my-insmod#012# semodule -X 300 -i my-insmod.pp#012
+   platform-python[3292]: SELinux is preventing /usr/bin/kmod from module_load access on the system /opt/nec/clusterpro/drivers/ka/distribution/asianux/clpka-4.18.0-147.5.1.el8.x86_64.ko.
+   
+   *****  Plugin catchall (100. confidence) suggests   **************************
+
+   If you believe that kmod should be allowed module_load access on the clpka-4.18.0-147.5.1.el8.x86_64.ko system by default.#012Then you should report this as a bug.
+   You can generate a local policy module to allow this access.
+   Do allow this access for now by executing:
+   # ausearch -c 'insmod' --raw | audit2allow -M my-insmod
+   # semodule -X 300 -i my-insmod.pp#012
    ```
 1. Stop the cluster.
 1. Allow to load clpka.
