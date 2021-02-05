@@ -5,7 +5,7 @@
 - [Evaluation Environment](#evaluation-environment)
 - [How to run EXPRESSCLUSTER with SELinux](#how-to-run-expresscluster-with-seLinux)
   - [Enable Kernel Modules using Type Enforcing File](#enable-kernel-modules-using-type-enforcing-file)
-  - [Enable Kernel Modules using Logs of Denined Operations](#enable-kernel-modules-using-logs-of-denined-operations)
+  - [Enable Kernel Modules using Logs of Denied Operations](#enable-kernel-modules-using-logs-of-denied-operations)
 
 ## Evaluation Environment
 - EXRESSCLUSTER X 4.2
@@ -122,7 +122,7 @@
     =====================================================================   
    ```
 
-### Enable Kernel Modules using Logs of Denined Operations
+### Enable Kernel Modules using Logs of Denied Operations
 1. Create a cluster with the following resources.
    - Heartbeat resource
      - Kernel mode heartbeat
