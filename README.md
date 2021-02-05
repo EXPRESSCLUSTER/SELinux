@@ -1,5 +1,5 @@
 # SELinux
-- The purpose of this project is to run EXPRESSCLUSTER kernel modules wiht SELinux.
+- The purpose of this project is to run EXPRESSCLUSTER kernel modules with SELinux.
 
 ## Index
 - [Evaluation Environment](#evaluation-environment)
@@ -8,8 +8,8 @@
   - [Enable Kernel Modules using Logs of Denined Operations](#enable-kernel-modules-using-logs-of-denined-operations)
 
 ## Evaluation Environment
-- MIRACLE LINUX 8 Asianux Inside (4.18.0-147.5.1.el8.x86_64)
 - EXRESSCLUSTER X 4.2
+  - MIRACLE LINUX 8 Asianux Inside (4.18.0-147.5.1.el8.x86_64)
 
 ## How to Run EXPRESSCLUSTER with SELinux
 ### Enable Kernel Modules using Type Enforcing File
