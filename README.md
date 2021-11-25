@@ -3,13 +3,23 @@
 
 ## Index
 - [Evaluation Environment](#evaluation-environment)
+- [Remarks](#remarks)
 - [How to run EXPRESSCLUSTER with SELinux](#how-to-run-expresscluster-with-seLinux)
   - [Enable Kernel Modules using Type Enforcing File](#enable-kernel-modules-using-type-enforcing-file)
   - [Enable Kernel Modules using Logs of Denied Operations](#enable-kernel-modules-using-logs-of-denied-operations)
 
+## Remarks
+- EXPRESSCLUSTER is sold as CLUSTERPRO in Japan. The following steps are available for CLUSTERPRO, too.
+
 ## Evaluation Environment
-- EXRESSCLUSTER X 4.2
-  - MIRACLE LINUX 8 Asianux Inside (4.18.0-147.5.1.el8.x86_64)
+- EXPRESSCLUSTER X 4.3
+  - MIRACLE LINUX 8.4
+    - 4.18.0-305.25.1.el8_4.x86_64
+    - 4.18.0-305.19.1.el8.x86_64
+    - 4.18.0-305.el8.x86_64
+- EXPRESSCLUSTER X 4.2
+  - MIRACLE LINUX 8 Asianux Inside 
+    - 4.18.0-147.5.1.el8.x86_64
 
 ## How to Run EXPRESSCLUSTER with SELinux
 ### Enable Kernel Modules using Type Enforcing File
