@@ -12,7 +12,7 @@
 - EXPRESSCLUSTER is sold as CLUSTERPRO in Japan. The following steps are available for CLUSTERPRO, too.
 
 ## Evaluation Environment
-- EXPRESSCLUSTER X 4.3
+- EXPRESSCLUSTER X 4.3 (4.3.2-1)
   - MIRACLE LINUX 8.4
     - 4.18.0-305.25.1.el8_4.x86_64
     - 4.18.0-305.19.1.el8.x86_64
